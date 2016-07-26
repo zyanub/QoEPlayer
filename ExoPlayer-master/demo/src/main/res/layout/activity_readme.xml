@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.google.android.exoplayer.demo.ReadmeActivity">
+
+    <TextView
+        android:id="@+id/readme_instr"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/readme_instr" />
+
+    <TextView
+        android:id="@+id/login_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/enter_name_readme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/first_name_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name" />
+
+    <EditText
+        android:id="@+id/last_name_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    <EditText
+        android:id="@+id/age_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/age" />
+
+    <EditText
+        android:id="@+id/nation_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/nation" />
+    </LinearLayout>
+
+    <RadioGroup
+    android:id="@+id/gender_radio"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <RadioButton
+        android:id="@+id/male_rbutton"
+        android:text="@string/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/female_rbutton"
+        android:text="@string/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/eye_radio"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/norm_rbutton"
+            android:text="@string/norm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/blind_rbutton"
+            android:text="@string/blind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button_ack_readme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/button_submit"/>
+
+
+</LinearLayout>

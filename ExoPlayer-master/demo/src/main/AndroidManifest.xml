@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.google.android.exoplayer.demo"
+    android:theme="@style/RootTheme"
+    android:versionCode="1100"
+    android:versionName="1.1.00" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/player_name"
+        android:largeHeap="true" >
+        <activity
+            android:name=".SampleChooserActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/player_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".simple.SimplePlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/player_name"
+            android:theme="@style/PlayerTheme" />
+        <activity
+            android:name=".full.FullPlayerActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="@string/application_name"
+            android:theme="@style/PlayerTheme" />
+        <activity
+            android:name=".QoEOpinionActivity"
+            android:label="@string/title_activity_qo_eopinion"
+            android:parentActivityName=".SampleChooserActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.android.exoplayer.demo.SampleChooserActivity" />
+        </activity>
+        <activity
+            android:name=".ReadmeActivity"
+            android:label="@string/title_activity_readme"
+            android:parentActivityName=".SampleChooserActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.android.exoplayer.demo.SampleChooserActivity" />
+        </activity>
+        <activity
+            android:name=".InstrActivity"
+            android:label="@string/title_activity_instr"
+            android:parentActivityName=".SampleChooserActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.google.android.exoplayer.demo.SampleChooserActivity" />
+        </activity>
+    </application>
+
+</manifest>

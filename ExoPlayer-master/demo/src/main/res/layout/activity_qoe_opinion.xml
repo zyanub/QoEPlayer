@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.google.android.exoplayer.demo.QoEOpinionActivity">
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction" />
+
+    <TextView
+        android:id="@+id/signin_status"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/opi_ques"
+        android:textSize="19sp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opinion_ques" />
+
+    <TextView
+        android:id="@+id/blank2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!--
+    <RadioGroup
+        android:id="@+id/env_radiogroup"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/outdoor_radiobutton"
+            android:text="@string/outdoor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/indoor_radiobutton"
+            android:text="@string/indoor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/dark_radiobutton"
+            android:text="@string/dark"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+    -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/button_ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/button_ack"/>
+        <TextView
+            android:id="@+id/button_space"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/button_nack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/button_nack"/>
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

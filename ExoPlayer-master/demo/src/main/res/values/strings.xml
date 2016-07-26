@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright (C) 2014 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- The user visible name of the application. [CHAR LIMIT=20] -->
+    <string name="application_name">ExoPlayer Demo</string>
+    <string name="enable_background_audio">Play in background</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="text">Text</string>
+    <string name="logging">Logging</string>
+    <string name="logging_normal">Normal</string>
+    <string name="logging_verbose">Verbose</string>
+    <string name="retry">Retry</string>
+    <string name="off">[off]</string>
+    <string name="on">[on]</string>
+    <string name="drm_not_supported">Protected content not supported on API levels below 18</string>
+    <string name="failed">Playback failed</string>
+    <string name="title_activity_qo_eopinion">Tell Us Your Experience</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="instruction">Thank you for watching the video! Please make sure you are correctly signed in before submitting your opinion.\n</string>
+    <string name="enter_name">Enter your information:</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="age">Age</string>
+    <string name="nation">Nationality</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="norm">Normal/Corrected Vision</string>
+    <string name="blind">Color Blind</string>
+    <string name="button_ack">Acceptable</string>
+    <string name="button_nack">Unacceptable</string>
+    <string name="button_submit">Click to sign in!</string>
+    <string name="player_name">QoEPlayer</string>
+    <string name="acc">Minor/no adjustment</string>
+    <string name="unacc">Unacceptable</string>
+    <string name="acc_ques">How is the screen brightness adjustment?</string>
+    <string name="opinion_ques">What do you think of the screen brightness adjustment of the video?</string>
+    <string name="title_activity_readme">Readme</string>
+    <string name="readme_instr">Thank you for participating this study! Please sign in first. This study investigates how cellphone screen brightness will impact your perception when watching videos.\n\nGeneral requirements:\n1) Please watch the video using landscape orientation to ensure full-screen watching.\n2) Please watch indoor with good lighting conditions (automatic test pending). \n</string>
+    <string name="signin_msg">You are currently signed in as</string>
+    <string name="title_activity_instr">Test Instructions</string>
+    <string name="instr1">This test investigates how would you like the dynamic adjustment of screen brightness when watching a video. You will be watching 4 videos, each with 3 versions. They may or may not have dynamic brightness. They may have the same or different pattern of adjustment. Your task is to tell whether each version is acceptable/comfortable or unacceptable/uncomfortable if they are your daily/everyday watching in real life. \n\nHere are some guides to help your decision:\n   1) Unacceptable cases: too frequent adjustment; many noticeable adjustments \n   2) Do not judge the clarity/blur because they have the same bit-rate/resolutions.\n  3) One or two adjustment can be acceptable. This test is NOT to identify the brightness change but studying your comfort/acceptability of such adjustment.\n\nAfter each video version, a recording form will pop up. If you already feel a video is unacceptable/uncomfortable during watching, you can double tap the screen to submit your opinion. However, you need to watch an entire video to say it is acceptable because even the video is good during your watching the rest of it may be bad.</string>
+    <string name="instr2">This test investigates how would you like the darkness of the screen. There are no dynamic brightness. You will be watching 20 videos and each has multiple versions with different brightness. Your task is to watch the original version first and tell whether the brightness of each other version is acceptable or unacceptable compared to original one.\nGUIDES to help your decisions:\n1) If the screen brightness is much darker from the original one so that the video watching is not enjoyable/comfortable, please say it is unacceptable.\n2) Each video is darkened at the beginning of the playback. If the darkening process is too noticeable/obvious (not smooth), say it is unacceptable.\n3) Please do NOT consider too bright screen as unacceptable, e.g., the screen is too bright/shinny to be comfortable or the screen is too bright so that my eyes are tired.\n\nYou can use the same way as test 1 to submit your opinion. ONE DIFFERENCE: the brightness of one video is shown in an ascending or descending order. So please watch it from version 1 to 20. Once you submit an \"acceptable\" after a \"unacceptable\" or vice versa, you can skip the rest of the versions because we would know your rest opinions due to the in-order brightness setup.</string>
+    <string name="instr3">This test investigates how would you like the dynamic adjustment of screen brightness when watching a video. For each video, there are multiple versions. Each version has exactly one adjustment. That only one adjustment can be minor/unnoticeable or obvious/noticeable. Your task is to tell whether each version of adjustment is acceptable/comfortable or unacceptable/uncomfortable if they are your daily/everyday watching in real life. \n\nHere are some guides to help your decision:\n   1) Do not judge the clarity/blur because they have the same bit-rate/resolutions.\n  2) Each version is darkened at the beginning of the playback and the initial darkening process might be noticeable/obvious. If so, please do not judge this phenomenon because we are interested in the adjustment, not the initial darkening.\n\nAfter each video version, a recording form will pop up. Then you can submit your opinion.</string>
+</resources>
